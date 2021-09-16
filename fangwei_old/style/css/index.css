@@ -1,0 +1,97 @@
+/*reset*/html{max-width: 640px;margin:0 auto;}article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, figure, section, legend, textarea, p, blockquote, th, td, input, select, textarea, button { margin: 0; padding: 0 }body{font:14px/1.4 "Microsoft Yahei",Arial,Helvetica,sans-serif;background-color: #fff;color:#424242;max-width: 640px;margin: 0 auto;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight: normal;}table{border-collapse:collapse;border-spacing:0}ul,ol,dd,dt,dl{list-style-type:none;}a{color:#333;text-decoration: none;-webkit-touch-callout: none;-webkit-user-select: none;}a,input,select,span{-webkit-tap-highlight-color: transparent;-webkit-appearance: none;-moz-appearance: none;-webkit-border-radius: 0;}
+input,img{border:none;padding:0;font-size:14px;}
+i,em{font-style:normal;}:focus{outline: none}
+
+/*iphone6*/@media(min-device-width:375px)and(max-device-width:667px)and(-webkit-min-device-pixel-ratio:2){body{font-size:14.5px;}}/*iphone6plus*/@media(min-device-width:414px) and (max-device-width:736px) and (-webkit-min-device-pixel-ratio:3){body{font-size:15.5px;}}
+
+/*原子类*/.clear { clear: both; }.clear:after { display: block; clear: both; visibility: hidden; height: 0; overflow: hidden; content: "."; }.fl { float: left; }.fr { float: right; }.mb10{margin-bottom: 10px;}.mt10{margin-top: 10px;}/*placeholder css*/::-moz-placeholder{ font-family: "Microsoft YaHei"}              ::-webkit-input-placeholder{ font-family: "Microsoft YaHei"}    ::-ms-input-placeholder{ font-family: "Microsoft YaHei"}
+
+/* 开始 */
+.fangwei{
+    width:100%;
+    height:100vh;
+    background:-webkit-gradient(linear, 0 0, 0 bottom, from(#745854), to(rgba(73, 91, 101, 0.5)));
+    font-family: "华文行楷";
+}
+.fangwei-start{
+    background-color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 7vw;
+    height: 85vh;
+    width: 76vw;
+    border-radius: 10px 10px 0 0;
+    padding: 5vw;
+}
+.fangwei-start-title{
+    margin: 0 10vw;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.fangwei-start-btns{
+    height: 100%;
+    overflow:auto;
+}
+.fangwei-start-btn{
+    width: 100%;
+    height: 3.3rem;
+    font-size: 1.05rem;
+    background-color: #fff;
+    border: 2px solid #f4f4f4;
+    border-radius: 7px;
+    color: #757575;
+    margin-top: 20px;
+}
+
+.zhezhao {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.divId{
+  position:fixed;
+  width:100%;
+  height:100%;
+  z-index:999;
+}
+.guanbi{
+    background-color: #fff;
+    width: 65vw;
+    text-align: center;
+    margin-left: 10vw;
+    border-radius: 10px;
+    margin-top: 40vh;
+    font-size: 15px;
+    padding: 8% ;
+  }
+  .guanbi p{
+      text-align: left;
+  }
+  .newxiazai{
+    margin-top: 5%;
+    border: 1px solid #fff;
+    padding: 5% 10%;
+    border-radius: 3px;
+    background-color: blue;
+    color: #fff;
+    font-size:1rem;
+    
+  }
+  .ping{
+      color: red;
+      font-size: 1.3rem;
+  }
+  .info_btn{
+      width: 78%;
+      height: 3.4rem;
+      background-color: #ffffff;
+      border: 2px solid #f5f5f5;
+      border-radius: 5px;
+      font-size: 1.1rem;
+      color: #919191;
+      font-family: "微软雅黑";
+  }
