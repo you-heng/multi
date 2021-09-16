@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教师管理端</title>
+    <link rel="stylesheet" href="css/style_2.css">
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    <div id="content">
+        <div class="min-with">
+           <a href="https://www.hist.edu.cn/" title="河南科技学院官网"> 
+           <img src="img/logo.png" style="margin: 24px 24px " ></a>
+        </div>
+    </div>
+
+    <div class="list">
+        <div class="listtext">
+            <a href="https://voice.baidu.com/act/newpneumonia/newpneumonia/?from=osari_pc_3" class="text">疫情快讯</a>
+        </div>
+
+        <div class="listtext">
+            <a href="./teacher_1.html" class="text">全部签到</a>
+        </div>
+
+        <div class="listtext">
+            <a href="./teacher_2.html" class="text">异常签到</a>
+        </div>
+
+        <div class="listtext">
+            <a href="./teacher_3.html" class="text">未签到</a>
+        </div>
+
+        <div class="listtext">
+            <a href="./teacher_4.html" class="text">签到导出</a>
+        </div>
+
+        <div class="waring">
+            <h1>签到导出</h1>
+            <button onClick="exportSign()">点击导出已签到数据</button>
+        </div>
+
+    </div>
+
+
+
+    </div>
+
+    <script type="text/javascript">
+        function topggleForm(){
+            var container = document.querySelector('.container');
+            container.classList.toggle('active');
+        }
+
+        function exportSign(){
+            window.location.href = './api/export.php';
+        }
+    </script>
+</body>
+</html>

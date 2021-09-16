@@ -1,0 +1,4 @@
+当前项目为论文管理系统
+前端使用xadmin
+后端使用PHP
+运行环境PHP+mysql+nginx

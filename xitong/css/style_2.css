@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+/* 设置整个表单参数 (父盒子)*/
+
+
+
+.min-with {
+
+    background-color: #0a539b;
+
+}
+
+.list{
+    width: 220px;
+    height: 700px;
+    border: 1px rgb(228, 228, 228) solid;
+    
+}
+.listtext{
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    line-height: 45px;
+    border: 2px rgb(228, 228, 228) solid;
+    
+}
+
+.text{
+    text-decoration: none;
+    font-size: 25px;
+    color: #0a539b;
+}
+
+.waring{
+    position: relative ;
+    left: 220px;
+    top: -250px;
+    width: 1690px;
+    height: 700px;
+    text-align: center;
+    line-height: 70px;
+}
+
+
+
+
+.text:hover{
+    color: rgb(112, 161, 235);
+    text-decoration: none;
+}
+
+.listtext:hover{
+    background-color:#E8E7E7;
+}
+

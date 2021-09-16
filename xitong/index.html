@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    <section>
+        
+        <!-- 学生登录 -->
+
+        <div class="container">
+            <div class="user singinBx">
+                <div class="imgBx"><img src="img/1.jpg" alt=""></div>
+                <div class="formBx">
+                    <form action="">
+                        <h2>学生登录</h2>
+                        <input type="text" name="name" id="stuName" placeholder="用户名">
+                        <input type="password" name="pass" id="stuPass" placeholder="密码">
+                        <input type="hidden" value="1" id="stuState" name="state">
+                        <input type="button" class="toBtn" value="登录">
+                        <p class="signup">老师登陆请点击<a href="#" onclick="topggleForm();">管理登录</a></p>
+                    </form>
+                </div>
+            </div>
+
+            <!-- 老师注册 -->
+
+            <div class="user singupBx">
+                <div class="formBx">
+                    <form action="">
+                        <h2>管理登录</h2>
+                        <input type="text" name="name" id="teaName" placeholder="用户名">
+                        <input type="password" name="pass" id="teaPass" placeholder="密码">
+                        <input type="hidden" value="2" name="state" id="teaState" >
+                        <input type="button" class="toBtn" value="登陆">
+                        <p class="signup">学生登陆请点击<a href="#" onclick="topggleForm();">学生登录</a></p>
+                    </form>
+                </div>
+                <div class="imgBx"><img src="img/2.jpg" alt=""></div>
+            </div>
+
+        </div>
+    </section>
+    <script src="./js/jquery.js"></script>
+    <script type="text/javascript">
+        var state = 1;
+        function topggleForm(){
+            var container = document.querySelector('.container');
+            container.classList.toggle('active');
+            state = 2;
+        }
+
+        $(".toBtn").click(()=>{
+            if(state == 1){
+                var data = {
+                    name: $("#stuName").val(),
+                    pass: $("#stuPass").val(),
+                }
+            }else{
+                var data = {
+                    name: $("#teaName").val(),
+                    pass: $("#teaPass").val(),
+                }
+            }
+            
+            if(data.name == ''){ alert('用户名不能为空'); return false; }
+            if(data.pass == ''){ alert('密码不能为空'); return false; }
+
+            $.post('./api/login.php',{data:data},(res)=>{
+                let data = JSON.parse(res);
+                alert(data.msg);
+                if(data.code == 0){
+                    (data.state == 1) ? window.location.href = './Student.html' : window.location.href = './teacher.html';
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
+
+

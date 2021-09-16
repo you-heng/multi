@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学生签到端</title>
+    <link rel="stylesheet" href="css/style_1.css">
+    <link rel="shortcut icon" href="">
+</head>
+<body>
+    <div id="content">
+        <div class="min-with">
+           <a href="https://www.hist.edu.cn/" title="河南科技学院官网"> 
+           <img src="img/logo.png" style="margin: 24px 24px " ></a>
+        </div>
+    </div>
+
+    <div id="puttext">
+        <div class="xxtext">
+            <h2>1.请输入学号</h2>
+            <input type="text" name="student" id="student" placeholder="学号">
+            <h2>2.请输入姓名</h2>
+            <input type="text" name="name" id="name" placeholder="姓名">
+            <h2>3.现在体温是否小于37.2℃</h2>
+            <input type="radio" name="is_temp" checked value="1">是
+            <input type="radio" name="is_temp" value="2">否
+            <h2>4.七日内没有前往过疫情高风险地区</h2>
+            <input type="radio" name="is_leave" value="1">是
+            <input type="radio" name="is_leave" checked value="2">否
+            <h2>5.本人现在所属位置</h2>
+            <input type="text" name="address" id="address" placeholder="所在地">
+                <div class="botton">
+                    <input type="button" class="toBtn" name="" value="提交">
+                </div>
+        </div>
+
+    </div>
+    <script src="./js/jquery.js"></script>
+    <script type="text/javascript">
+        function topggleForm(){
+            var container = document.querySelector('.container');
+            container.classList.toggle('active');
+        }
+
+        $(".toBtn").click(()=>{
+            var data = {
+                student: $("#student").val(),
+                name: $("#name").val(),
+                is_temp: $("input[name='is_temp']:checked").val(),
+                is_leave: $("input[name='is_leave']:checked").val(),
+                address: $("#address").val(),
+            }
+
+            if(data.student == ''){ alert('请输入学号'); return false; }
+            if(data.name == ''){ alert('请输入姓名'); return false; }
+            if(data.address == ''){ alert('请输入当前所在地址'); return false; }
+
+            $.post('./api/sign.php',{data:data},(res)=>{
+                let data = JSON.parse(res);
+                alert(data.msg);
+            });
+        });
+    </script>
+</body>
+</html>
