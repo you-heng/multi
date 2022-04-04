@@ -1,0 +1,490 @@
+// 20220331184623
+// https://tk.anmixiu.com/api/clocking.php?type=dataoke
+
+{
+  "requestId": "a3b72e530dd88aa3f3ce82ea44b6bed8",
+  "time": 1648723579521,
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "list": [
+      {
+        "msgId": "fugui_bf01e585-56cb-446d-9bb2-52ae648978c7",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "",
+        "remark": "",
+        "type": "jingdong",
+        "isLuxury": 0,
+        "idList": [
+          "100019236863"
+        ],
+        "urlList": [
+          "https://u.jd.com/TKRv7x1"
+        ],
+        "imageList": [
+          "https://img14.360buyimg.com/pop/jfs/t1/114606/19/24958/466115/62429959E362f03a5/420fb523fd4f3deb.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "健美创研 美白防晒喷雾120ml  \nhttps://u.jd.com/TKRv7x1 \n粉丝价7.9元，用极速版25-4券3.9元，赠2件护手霜30g",
+        "createTime": "2022-03-31 18:44:17",
+        "updateTime": "2022-03-31 18:44:17"
+      },
+      {
+        "msgId": "oxiong_62430c02d8f6b103d35620e1",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "领99-49券",
+        "remark": "",
+        "type": "article",
+        "isLuxury": 0,
+        "idList": [
+          "10033228863423"
+        ],
+        "urlList": [
+          "http://coupon.m.jd.com/coupons/show.action?key=cca7d34894a54b6d97a0775f3cbbc4d5&roleId=72362317",
+          "https://u.jd.com/TdRvEcA"
+        ],
+        "imageList": [
+
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "领99-49券\nhttp://coupon.m.jd.com/coupons/show.action?key=cca7d34894a54b6d97a0775f3cbbc4d5&roleId=72362317\ne洁 手提式一次性塑料袋45x59cm5券共140只\nhttps://u.jd.com/TdRvEcA\n拍3，叠99-45满减，\n25.7包邮，折8.5元/件，质量反馈不错~",
+        "createTime": "2022-03-29 21:39:14",
+        "updateTime": "2022-03-31 18:43:55"
+      },
+      {
+        "msgId": "fugui_3a4dbbd8-622a-4684-ac69-d3b9c61a528d",
+        "platformType": "tb",
+        "source": "taobao",
+        "title": "",
+        "remark": "",
+        "type": "taobao",
+        "isLuxury": 0,
+        "idList": [
+          "584437738431"
+        ],
+        "urlList": [
+          "￥IUgF26vFrXg￥"
+        ],
+        "imageList": [
+          "https://sr.ffquan.cn/neirong/tip_section_collect/20220331/e843c947f4e74948a8bdfa62e1a207c3"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "16.9亓\n亲亲虾条大包装80g*5包\n￥IUgF26vFrXg￥//",
+        "createTime": "2022-03-31 18:43:17",
+        "updateTime": "2022-03-31 18:43:17"
+      },
+      {
+        "msgId": "oxiong_6245856066c49e5c7674e8fa",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "Plus领105-5全品劵",
+        "remark": "",
+        "type": "article",
+        "isLuxury": 0,
+        "idList": [
+          "10047758947023"
+        ],
+        "urlList": [
+          "https://u.jd.com/TCR8IH9",
+          "https://u.jd.com/TLRgo1h"
+        ],
+        "imageList": [
+
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "Plus领105-5全品劵\nhttps://u.jd.com/TCR8IH9\n妙可蓝多 奶酪棒棒40支（益生元原味90g*4袋+益生元草莓味90g*4袋）\nhttps://u.jd.com/TLRgo1h\nPlus到手64包邮，非常好吃～",
+        "createTime": "2022-03-31 18:41:36",
+        "updateTime": "2022-03-31 18:41:36"
+      },
+      {
+        "msgId": "oxiong_624584e43d3db1766134e133",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "部分有99-20奍，叠加2礼金一起50.7元+u\r拍3件！脉动 青柠口味400ML*8瓶",
+        "remark": "",
+        "type": "article",
+        "isLuxury": 0,
+        "idList": [
+          "100017141244",
+          "100006591406"
+        ],
+        "urlList": [
+          "https://u.jd.com/TLR1sDP",
+          "https://u.jd.com/TwRazWA"
+        ],
+        "imageList": [
+
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "部分有99-20奍，叠加2礼金一起50.7元+u\n拍3件！脉动 青柠口味400ML*8瓶\nhttps://u.jd.com/TLR1sDP\n拍1件！由柑 柠檬茶250ML*6盒\nhttps://u.jd.com/TwRazWA",
+        "createTime": "2022-03-31 18:39:32",
+        "updateTime": "2022-03-31 18:39:32"
+      },
+      {
+        "msgId": "oxiong_6226404b45056a70114adb2e",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "手机端9.9元\r护舒宝卫生巾240mm 日用12片",
+        "remark": "",
+        "type": "goods",
+        "isLuxury": 0,
+        "idList": [
+          "100014231491"
+        ],
+        "urlList": [
+          "https://u.jd.com/TtR8JIr"
+        ],
+        "imageList": [
+          "http://img14.360buyimg.com/n1/jfs/t1/131335/21/24263/218469/6229df4eE7cb2be3e/7e8243684d9b36e5.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "",
+        "createTime": "2022-03-08 01:26:35",
+        "updateTime": "2022-03-31 18:37:56"
+      },
+      {
+        "msgId": "fugui_c1283f57-5d15-4d43-acb2-654f1233f955",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "",
+        "remark": "",
+        "type": "jingdong",
+        "isLuxury": 0,
+        "idList": [
+          "100023432220"
+        ],
+        "urlList": [
+          "https://u.jd.com/TMRq2Dl",
+          "https://u.jd.com/TdRDkrD"
+        ],
+        "imageList": [
+          "https://img14.360buyimg.com/pop/jfs/t1/174359/29/16993/98965/60dc17b0E7e8d258d/fa63a00a40c56b7f.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "北京上海江苏地区8.9元\n来伊份 岩烧乳酪吐司300g/箱\nhttps://u.jd.com/TMRq2Dl \n手机端9.9元\n护舒宝卫生巾240mm 日用12片\nhttps://u.jd.com/TdRDkrD",
+        "createTime": "2022-03-31 18:37:30",
+        "updateTime": "2022-03-31 18:37:30"
+      },
+      {
+        "msgId": "oxiong_623c8778786ce912265eded6",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "先领12-5优惠券",
+        "remark": "",
+        "type": "article",
+        "isLuxury": 0,
+        "idList": [
+          "46610364404",
+          "46609853824",
+          "10031164349976",
+          "48908991001"
+        ],
+        "urlList": [
+          "http://coupon.m.jd.com/coupons/show.action?linkKey=AAROH_xIpeffAs_-naABEFoelxt1YMTakXdmCuHC7v2EkIKV7hbVtVrSuKEhadsArcqAPX017HuPRHcw5WK80BGYyJOG_A",
+          "https://u.jd.com/TwR8BFH",
+          "https://u.jd.com/TMRn2Ch",
+          "https://u.jd.com/TCRzXBK",
+          "https://u.jd.com/TtRy34j"
+        ],
+        "imageList": [
+
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "先领12-5优惠券\nhttp://coupon.m.jd.com/coupons/show.action?linkKey=AAROH_xIpeffAs_-naABEFoelxt1YMTakXdmCuHC7v2EkIKV7hbVtVrSuKEhadsArcqAPX017HuPRHcw5WK80BGYyJOG_A\n【京东】九眼桥 火锅底料 调料合集\n清油/醇香/麻辣烫/麻辣小龙虾\nhttps://u.jd.com/TwR8BFH\nhttps://u.jd.com/TMRn2Ch\nhttps://u.jd.com/TCRzXBK\nhttps://u.jd.com/TtRy34j\n任拍1，最低到手7.9包邮~",
+        "createTime": "2022-03-24 23:00:08",
+        "updateTime": "2022-03-31 18:35:29"
+      },
+      {
+        "msgId": "fugui_20d80411-87e7-40f0-976f-b85e8c96c6b9",
+        "platformType": "tb",
+        "source": "taobao",
+        "title": "",
+        "remark": "",
+        "type": "taobao",
+        "isLuxury": 0,
+        "idList": [
+          "645097908838"
+        ],
+        "urlList": [
+          "￥FTix26vH1re￥"
+        ],
+        "imageList": [
+          "https://sr.ffquan.cn/neirong/tip_section_collect/20220331/ae5f06fa02c94007ac80963ae6a5142f"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "1.9亓 晨光优乐诚品专卖店\n蜡笔1支+钢笔1支+10墨囊\n￥FTix26vH1re￥//",
+        "createTime": "2022-03-31 18:35:22",
+        "updateTime": "2022-03-31 18:35:22"
+      },
+      {
+        "msgId": "fugui_3f397cc4-8bf7-477a-b96f-53ff8670cf3d",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "",
+        "remark": "",
+        "type": "jingdong",
+        "isLuxury": 0,
+        "idList": [
+          "100024818440"
+        ],
+        "urlList": [
+          "https://u.jd.com/TIRas9L"
+        ],
+        "imageList": [
+          "https://img14.360buyimg.com/pop/jfs/t1/112105/36/23051/246986/62216e18Ec43d2ff9/7142e9bea877bbda.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "部分账号有19-10奍 plus拍2件6.02元\n皓齿健  3-12岁益生菌儿童牙膏50g\nhttps://u.jd.com/TIRas9L",
+        "createTime": "2022-03-31 18:32:46",
+        "updateTime": "2022-03-31 18:32:46"
+      },
+      {
+        "msgId": "oxiong_62458330f4bbde2d3c17eae5",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "驯龙师 超级快充Type-c数据线【1米/2条装】 6.9元",
+        "remark": "",
+        "type": "goods",
+        "isLuxury": 0,
+        "idList": [
+          "72497475748"
+        ],
+        "urlList": [
+          "https://u.jd.com/TMRgUdG"
+        ],
+        "imageList": [
+          "http://img14.360buyimg.com/n1/jfs/t1/190960/10/19071/127759/611f09c6Eb11fe8fd/237a94ecb79563a7.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "",
+        "createTime": "2022-03-31 18:32:16",
+        "updateTime": "2022-03-31 18:32:16"
+      },
+      {
+        "msgId": "fugui_418e3b4f-128c-4f76-a0db-72b10e3679c7",
+        "platformType": "tb",
+        "source": "taobao",
+        "title": "",
+        "remark": "",
+        "type": "taobao",
+        "isLuxury": 0,
+        "idList": [
+          "670859359342"
+        ],
+        "urlList": [
+          "￥MjCT26vrxJ0￥"
+        ],
+        "imageList": [
+          "https://sr.ffquan.cn/neirong/tip_section_collect/20220331/9f84987198db45b8b9251328b0c65fa1"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "9.9亓 usb桌面迷你小风扇\n￥MjCT26vrxJ0￥//",
+        "createTime": "2022-03-31 18:31:45",
+        "updateTime": "2022-03-31 18:31:45"
+      },
+      {
+        "msgId": "fugui_cc9135d6-7648-4991-83aa-0468207f8c59",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "",
+        "remark": "",
+        "type": "jingdong",
+        "isLuxury": 0,
+        "idList": [
+          "100026646246"
+        ],
+        "urlList": [
+          "https://u.jd.com/TdROXMF"
+        ],
+        "imageList": [
+          "https://img14.360buyimg.com/pop/jfs/t1/185174/15/22475/480632/6243ad4fE265ce3dc/9a68f0ecae81a783.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "领券中心-部分有169-30家清券\n洁柔Face系列立体压花抽纸3层100抽24包\n拍3件85.04元+邮费\nhttps://u.jd.com/TdROXMF",
+        "createTime": "2022-03-31 18:31:22",
+        "updateTime": "2022-03-31 18:31:22"
+      },
+      {
+        "msgId": "oxiong_6243bb0fe6dbec5d7e466a82",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "【自营】苏泊尔（SUPOR）数字显温 触控操作 1.5L烧水壶 5段调温",
+        "remark": "下单89+u",
+        "type": "goods",
+        "isLuxury": 0,
+        "idList": [
+          "100009024631"
+        ],
+        "urlList": [
+          "https://u.jd.com/TLRQwtT"
+        ],
+        "imageList": [
+          "http://img14.360buyimg.com/n1/jfs/t1/116722/25/23268/193767/624416e7Ee8e533d7/42d31603a6a9fb8c.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "",
+        "createTime": "2022-03-30 10:06:07",
+        "updateTime": "2022-03-31 18:31:20"
+      },
+      {
+        "msgId": "fugui_2677b913-79b7-4dd1-9f15-a8a18e2824f6",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "",
+        "remark": "",
+        "type": "jingdong",
+        "isLuxury": 0,
+        "idList": [
+          "100020763558"
+        ],
+        "urlList": [
+          "https://u.jd.com/TLRQj0s"
+        ],
+        "imageList": [
+          "https://img14.360buyimg.com/pop/jfs/t1/157363/15/24281/97646/61c98cb7E025bdec6/df944cfb5a37dd9e.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "来伊份 香辣海鲜菇 150g\n北京报价6.9元 可凑199-100券 进店价格排序看看\nhttps://u.jd.com/TLRQj0s",
+        "createTime": "2022-03-31 18:30:51",
+        "updateTime": "2022-03-31 18:30:51"
+      },
+      {
+        "msgId": "oxiong_624432a3741f512b8a2fbff6",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "映趣电动剃须刀 三刀头 暗夜黑",
+        "remark": "39.9",
+        "type": "goods",
+        "isLuxury": 0,
+        "idList": [
+          "62699616985"
+        ],
+        "urlList": [
+          "https://u.jd.com/TMROip1"
+        ],
+        "imageList": [
+          "http://img14.360buyimg.com/n1/jfs/t1/198779/16/19575/155682/61aebf87Ecb4846b3/3eb2ad35d6be4490.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "",
+        "createTime": "2022-03-30 18:36:19",
+        "updateTime": "2022-03-31 18:28:38"
+      },
+      {
+        "msgId": "fugui_3c904e1b-87be-44cd-90c9-e93ec3529f0b",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "",
+        "remark": "",
+        "type": "jingdong",
+        "isLuxury": 0,
+        "idList": [
+          "100017103558"
+        ],
+        "urlList": [
+          "https://u.jd.com/TtRDFlh"
+        ],
+        "imageList": [
+          "https://img14.360buyimg.com/pop/jfs/t1/196410/7/18677/133376/6119fd00Ece875c20/ebfad5c65204aba1.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "来伊份 嗨吃无骨香辣味脱骨鸭掌 \n广东广西10.9元\nhttps://u.jd.com/TtRDFlh",
+        "createTime": "2022-03-31 18:24:43",
+        "updateTime": "2022-03-31 18:24:43"
+      },
+      {
+        "msgId": "oxiong_6245815e76f03a6cee6515e6",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "美津浓1000-450限品券，",
+        "remark": "",
+        "type": "jd",
+        "isLuxury": 0,
+        "idList": [
+
+        ],
+        "urlList": [
+          "https://coupon.m.jd.com/coupons/show.action?key=ccm9c1seo8ac4376beef9e1a9f940051&roleId=72570489&to=https://shop.m.jd.com/?shopId=69560"
+        ],
+        "imageList": [
+
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "",
+        "createTime": "2022-03-31 18:24:30",
+        "updateTime": "2022-03-31 18:24:30"
+      },
+      {
+        "msgId": "fugui_6c9716fc-58b1-432b-abe2-279560af38be",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "",
+        "remark": "",
+        "type": "jingdong",
+        "isLuxury": 0,
+        "idList": [
+          "69287626173",
+          "10035688135657"
+        ],
+        "urlList": [
+          "https://u.jd.com/TMRwf2D",
+          "https://u.jd.com/TLRzzwp"
+        ],
+        "imageList": [
+          "https://img14.360buyimg.com/pop/jfs/t1/180948/32/21961/154366/624425d2Ee11d3268/2f65a866ad566d30.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "好价-美津浓1000-450卷后\nhttps://u.jd.com/TMRwf2D  \nhttps://u.jd.com/TLRzzwp  \n各拍1件【327元】",
+        "createTime": "2022-03-31 18:22:07",
+        "updateTime": "2022-03-31 18:22:07"
+      },
+      {
+        "msgId": "fugui_1a15cf67-6b3d-4efc-b93e-97d7a3cc4da9",
+        "platformType": "jd",
+        "source": "jd",
+        "title": "",
+        "remark": "",
+        "type": "jingdong",
+        "isLuxury": 0,
+        "idList": [
+          "100008155345"
+        ],
+        "urlList": [
+          "https://u.jd.com/TMRrpq8"
+        ],
+        "imageList": [
+          "https://img14.360buyimg.com/pop/jfs/t1/223927/23/7549/133301/6236cabdEf5eb983d/23a5ec51affe160e.jpg"
+        ],
+        "tag": "",
+        "stepId": "",
+        "originContent": "柔丫芯飞扬系列 宝宝拉拉裤 XL42片\n部分有149-30母婴劵，京喜app下单\nplus拍2件86.7元+邮费\nhttps://u.jd.com/TMRrpq8",
+        "createTime": "2022-03-31 18:21:58",
+        "updateTime": "2022-03-31 18:21:58"
+      }
+    ],
+    "pageId": "1",
+    "totalNum": 4898,
+    "goScroll": false
+  }
+}

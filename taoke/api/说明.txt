@@ -1,0 +1,18 @@
+淘宝联盟：https://aff-open.taobao.com/developer/index.htm#/app/27725040/app_app
+淘宝联盟pid：https://pub.alimama.com/third/manage/record/adzone.htm
+物料精选：https://aff-open.taobao.com/#!/document
+物料id：https://market.m.taobao.com/app/qn/toutiao-new/index-pc.html#/detail/10628875?_k=gpov9a
+
+多多进宝SDK：https://jinbao.pinduoduo.com/third-party/rank
+拼多多开放平台：https://open.pinduoduo.com/application/app/list
+
+大淘客开放平台：https://www.dataoke.com/kfpt/apply-l.html
+大淘客榜单：https://www.dataoke.com/kfpt/api-d.html?id=6
+
+大拼客开放平台：https://www.dapinke.com/open-api/index
+
+
+dapinke -- 获取大拼客榜单
+dataoke -- 获取大淘客榜单 或者 获取淘宝联盟物料精选
+duoduo  -- 搜索多多进宝
+taobao  -- 搜索淘宝联盟

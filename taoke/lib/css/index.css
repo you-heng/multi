@@ -1,0 +1,227 @@
+/**********************公共样式************************/
+html,body,ul,li,img,a,p {
+    padding:0;
+    margin:0;
+    /*设置盒子模型*/
+    box-sizing: border-box;
+    /*去除移动端特有的点击高亮效果，比如创建一个div元素，手放上去之后会有hover效果*/
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+    font-size: 13px;
+}
+a,
+a:hover {   /*去掉a链接的默认样式*/
+    color:#666;
+    text-decoration: none;
+}
+ul{
+    list-style:none;
+}
+input {
+    /*清除文本框获取焦点时磨人的边框阴影*/
+    outline: none;
+    /*去除边框*/
+    boeder: none;
+    /*添加边框*/
+    border: 1px solid #ccc;
+}
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    height:0;
+    display: block;
+    line-height:0;
+    clear:both;
+    visibility: hidden;
+}
+
+/*新添一些可以重复利用的样式*/
+.float_r {
+    float: right
+}
+.float_l {
+    float: left;
+}
+
+/**********************首页样式************************/
+.index{
+    background-color: #f3f3f3;
+}
+/*搜索框*/
+.search {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.data_click {
+    font-size: 0;
+    width: 100%;
+    margin-top: 55px;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: row;
+    height: 33px;
+    justify-content: space-between;
+}
+#clickLater_btn{
+    margin-top: 0;
+}
+.data_click_div{
+    font-size: 28px;
+    text-align: center;
+    margin-top: 18px;
+}
+.data_click button{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border: 0;
+}
+/*自平台*/
+.data {
+    font-size: 0;
+    width: 100%;
+    margin-top: 55px;
+    background-color: #f3f3f3;
+}
+.data img{
+    width: calc(100% - 20px);
+    margin: 5px 10px 5px 10px;
+    border-radius: 10px;
+}
+
+/*淘客*/
+.tabkeAll {
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f2f2f2;
+    padding-bottom: 10px;
+}
+
+.taoke {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px 0 10px;
+    height: 145px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.taoke_img {
+    width: 41%;
+    height: 145px;
+    border-radius: 10px 0 0 10px;
+}
+
+.taoke img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.taoke_content {
+    margin-left: 7px;
+    width: 53%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.taoke_content_neirong {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: 0.7rem;
+}
+.taoke_content_ticket{
+    width: 50%;
+    height: 20px;
+    font-size: 0.7rem;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-image: url('../images/ticket.png');
+    background-size: 100% 100%;
+}
+.taoke_content_amount{
+    font-size: 0.7rem;
+    color: #999;
+}
+.taoke_content_price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+.price_3{
+    color: #999;
+    text-decoration:line-through;
+    font-size: 0.7rem;
+}
+.price_2{
+    font-size: 1.3rem;
+}
+.price_1{
+    font-size: 0.8rem;
+}
+
+/*弹窗*/
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(0,0,0,0.4)
+}
+.popup_img{
+    width: 55%;
+    margin-bottom: 10%;
+    margin-top: 25%;
+}
+.popup_close{
+    width: 10%;
+}
+
+/*点击搜索后的样式*/
+.clickSearch{
+    display: flex;
+    flex-direction: column;
+}
+.clickSearch img{
+    width: 100%;
+}
+.clickSearch_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    background: #000;
+}
+.clickSearch_1 span{
+    margin-left: 5px;
+    color: #fff;
+}
+.clickSearch_1 .van-search{
+    width: 100%;
+}
+.search_1{
+    color: #fff;
+}
+.price_4{
+    font-size: 0.9rem;
+}
+.clickSearch_1 .left-img{
+    width: 20px;
+    margin-left: 10px;
+}
