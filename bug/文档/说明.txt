@@ -1,4 +1,0 @@
-当前系统为bug管理系统
-前端xadmin
-后端PHP
-运行环境PHP+mysql+nginx
