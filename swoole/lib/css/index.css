@@ -1,0 +1,253 @@
+/*
+* @Author: xuebingsi
+* @Date:   2019-04-01 13:37:17
+* @Last Modified by:   zhibinm
+* @Last Modified time: 2019-04-01 13:37:19
+*/
+body,html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+.login-bg{
+    background:url(../images/bg.png) no-repeat center;
+    background-size: cover;
+    overflow: hidden;
+}
+.login{
+    margin: 120px auto 0 auto;
+    min-height: 420px;
+    max-width: 420px;
+    padding: 40px;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    /* overflow-x: hidden; */
+    box-sizing: border-box;
+}
+.login a.logo{
+    display: block;
+    height: 58px;
+    width: 167px;
+    margin: 0 auto 30px auto;
+    background-size: 167px 42px;
+}
+.login .message {
+    margin: 10px 0 0 -58px;
+    padding: 18px 10px 18px 60px;
+    background: #189F92;
+    position: relative;
+    color: #fff;
+    font-size: 16px;
+}
+.login #darkbannerwrap {
+    background: url(../images/aiwrap.png);
+    width: 18px;
+    height: 10px;
+    margin: 0 0 20px -58px;
+    position: relative;
+}
+
+.login input[type=text],
+.login input[type=file],
+.login input[type=password],
+.login input[type=email], select {
+    border: 1px solid #DCDEE0;
+    vertical-align: middle;
+    border-radius: 3px;
+    height: 50px;
+    padding: 0px 16px;
+    font-size: 14px;
+    color: #555555;
+    outline:none;
+    width:100%;
+    box-sizing: border-box;
+}
+.login input[type=text]:focus,
+.login input[type=file]:focus,
+.login input[type=password]:focus,
+.login input[type=email]:focus, select:focus {
+    border: 1px solid #27A9E3;
+}
+.login input[type=submit],
+.login input[type=button]{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 12px 24px;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #189F92;
+    border-radius: 3px;
+    border: none;
+    -webkit-appearance: none;
+    outline:none;
+    width:100%;
+}
+.login hr.hr15 {
+    height: 15px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.login hr.hr20 {
+    height: 20px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+/* 客服首页 */
+.layui-container-all{
+    width: 100%;
+    height: 100%;
+}
+.layui-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 6%;
+    width: 100%;
+    background-color: #393d49;
+    color: white;
+}
+.layui-header-left{
+    margin-left: 20px;
+}
+.layui-header-right{
+    margin-right: 20px;
+}
+.layui-content{
+    height: 94%;
+}
+.layui-content-left{
+    height: 100%;
+    background-color: #ddd;
+}
+.layui-content-left-list{
+    background-color: #eee;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor:pointer;
+    border-bottom: 1px solid #fff;
+}
+.layui-content-center{
+    height: 100%;
+    background-color: white;
+}
+.layui-send-title{
+    min-width: 80px;
+    background-color: #189F92;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+    color: #fff;
+}
+.layui-content-center-details{
+    height: 70%;
+    padding: 20px 10px 0 10px;
+    overflow: scroll;
+    background-color: #f5f5f5;
+}
+.layui-send{
+    min-height: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.layui-send-client{
+    margin-top: 20px;
+}
+.layui-send-client span{
+    padding: 20px 15px;
+    background-color: orange;
+    border-radius: 50px;
+    color: #fff;
+}
+.layui-send-list{
+    max-width: 85%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.layui-send-time{
+    margin-left: 10px;
+    font-size: 10px;
+    color: #ccc;
+}
+.layui-send-content{
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.layui-send-right{
+    background-color: #555555;
+    float: right;
+    display: flex;
+    flex-direction: row;
+}
+.layui-send-right-client{
+    margin-bottom: 20px;
+}
+
+
+/*.layui-send {
+    position:relative;
+    width:150px;
+    height:35px;
+    background:#95ec69;
+    border-radius:5px; !* 圆角 *!
+    margin:30px auto 0;
+    color: #000;
+}
+
+.layui-send .layui-send-arrow {
+    position:absolute;
+    top:8px;
+    left:-16px; !* 圆角的位置需要细心调试哦 *!
+    width:0;
+    height:0;
+    font-size:0;
+    border:solid 8px;
+    border-color:#fff #95ec69 #fff #fff;
+}*/
+
+
+.layui-content-center-send{
+    border-top: 2px solid #ddd;
+    height: calc(30% - 62px);
+}
+.layui-content-center-send-uplod{
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.layui-content-center-send-input{
+    height: calc(100% - 80px);
+}
+.layui-textarea{
+    height: 100%;
+}
+.layui-content-center-send-btn{
+    width: 100%;
+}
+.layui-content-right{
+    height: 100%;
+    background-color: #27A9E3;
+}
