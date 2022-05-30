@@ -154,7 +154,7 @@ body,html{
     padding: 0 10px;
     height: 40px;
     line-height: 40px;
-    width: 100%;
+    width: 98.2%;
     color: #fff;
 }
 .layui-content-center-details{
@@ -164,70 +164,82 @@ body,html{
     background-color: #f5f5f5;
 }
 .layui-send{
-    min-height: 80px;
-    margin-bottom: 20px;
+    width: 85%;
+    min-height: 60px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
 }
 .layui-send-client{
-    margin-top: 20px;
+    width: 6%;
+    margin-top: 10px;
 }
 .layui-send-client span{
-    padding: 20px 15px;
+    padding: 10px 6px;
     background-color: orange;
-    border-radius: 50px;
+    border-radius: 3px;
     color: #fff;
 }
 .layui-send-list{
-    max-width: 85%;
-    margin-left: 20px;
+    max-width: 91%;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 .layui-send-time{
-    margin-left: 10px;
     font-size: 10px;
     color: #ccc;
 }
 .layui-send-content{
+    width: auto;
     margin-top: 5px;
-    padding: 5px 10px;
+    padding: 10px;
     background-color: #fff;
-    border-radius: 6px;
+    border-radius: 3px;
+}
+.layui-send-img{
+    max-width: 70%;
+}
+.layui-send-img img{
+    width: 100%;
+    cursor: pointer;
 }
 .layui-send-right{
-    background-color: #555555;
-    float: right;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    width: 85%;
+    min-height: 60px;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 .layui-send-right-client{
-    margin-bottom: 20px;
+    width: 6%;
+    margin-top: 10px;
+    margin-left: 20px;
 }
-
-
-/*.layui-send {
-    position:relative;
-    width:150px;
-    height:35px;
-    background:#95ec69;
-    border-radius:5px; !* 圆角 *!
-    margin:30px auto 0;
-    color: #000;
+.layui-send-right-client span{
+    padding: 10px 6px;
+    background-color: #27A9E3;
+    border-radius: 3px;
+    color: #fff;
 }
-
-.layui-send .layui-send-arrow {
-    position:absolute;
-    top:8px;
-    left:-16px; !* 圆角的位置需要细心调试哦 *!
-    width:0;
-    height:0;
-    font-size:0;
-    border:solid 8px;
-    border-color:#fff #95ec69 #fff #fff;
-}*/
-
-
+.layui-send-right-list{
+    max-width: 91%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.layui-send-right-time{
+    font-size: 10px;
+    color: #ccc;
+}
+.layui-send-right-content{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #95ec69;
+    border-radius: 3px;
+}
 .layui-content-center-send{
     border-top: 2px solid #ddd;
     height: calc(30% - 62px);
@@ -236,7 +248,6 @@ body,html{
     height: 30px;
     line-height: 30px;
     padding-left: 10px;
-    border-bottom: 1px solid #ddd;
 }
 .layui-content-center-send-input{
     height: calc(100% - 80px);
@@ -249,5 +260,132 @@ body,html{
 }
 .layui-content-right{
     height: 100%;
+}
+.layui-right-tab{
+    padding: 0 20px;
+}
+.information{
+    width: 40px;
+}
+.information_content{
+    margin-left: 70px;
+}
+.layui-right-tab-btn{
+    margin-left: 70px;
+}
+.layui-right-interval{
+    height: 50px;
+}
+.layui-form-remark{
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+}
+/* PC客户端 */
+.layui-client{
+    background-color: red;
+    height: 90vh;
+    font-size: 62.5%;
+}
+.layui-client-title{
+    padding-top: 2%;
+}
+/* 移动客户端 */
+.layui-chat-up{
+    height: 94vh;
+    background-color: #f5f5f5;
+    overflow: scroll;
+    padding: 10px;
+}
+.layui-chat-down{
+    height: 6vh;
+    background-color: #eceae8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.layui-chat-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 3rem;
+    margin-bottom: 0.8rem;
+}
+.layui-chat-left-title{
+    width: 13%;
+    margin-top: 0.8rem;
+}
+.layui-chat-left-title span{
+    padding: 12px 6px;
     background-color: #27A9E3;
+    color: #fff;
+    border-radius: 3px;
+}
+.layui-chat-left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 74%;
+}
+.layui-chat-left-content-time{
+    color: #ccc;
+}
+.layui-chat-left-content-neirong{
+    padding: 8px;
+    background-color: #fff;
+    border-radius: 3px;
+    height: auto;
+}
+.layui-chat-img{
+    max-width: 60%;
+}
+.layui-chat-img img{
+    width: 100%;
+}
+.layui-chat-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 0.8rem;
+    min-height: 3rem;
+}
+.layui-chat-right-title{
+    width: 13%;
+    margin-top: 0.8rem;
+    margin-left: 0.5rem;
+}
+.layui-chat-right-title span{
+    padding: 12px 6px;
+    background-color: #555555;
+    color: #fff;
+    border-radius: 3px;
+}
+.layui-chat-right-content{
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.layui-chat-right-content-time{
+    color: #ccc;
+}
+.layui-chat-right-content-neirong{
+    background-color: #95ec69;
+    padding: 8px;
+    border-radius: 3px;
+    height: auto;
+}
+.layui-chat-upload{
+    width: 11%;
+}
+.layui-chat-upload-icon{
+    margin-left: 0.5rem;
+    font-size: 1.8rem;
+}
+.layui-chat-input{
+    width: 69%;
+}
+.layui-chat-btn{
+    margin-left: 0.5rem;
+    width: 16%;
 }

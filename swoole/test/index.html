@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="welcome"></div>
+<div id="message"></div>
+<input type="text" id="msg">
+<button onclick="test()">发送</button>
+</body>
+<script>
+    const ws = "ws://mi.anmixiu.com:9502";
+    const websocket = new WebSocket(ws);
+    websocket.onopen = (res) => {
+        console.log('连接成功', res)
+        document.getElementById('welcome').append(
+            "<h1>连接成功！欢迎</h1>"
+        )
+    }
+
+    websocket.onclose = (res) => {
+        console.log('关闭', res)
+        document.getElementById('message').append(
+            "<h3>" + res.data + "</h3>"
+        )
+    }
+
+    websocket.onmessage = (res) => {
+        console.log('消息', res)
+        document.getElementById('message').append(
+            "<h3>" + res.data + "</h3>"
+        )
+    }
+
+    websocket.onerror = (res,e) => {
+        console.log('错误', res)
+        document.getElementById('message').append(
+            "<h3>" + res + "</h3>"
+        )
+    }
+
+    function test(){
+        let msg = document.getElementById('msg').value
+        websocket.send(msg);
+    }
+</script>
+</html>

@@ -10,7 +10,7 @@
     <title>客服工作台</title>
 </head>
 <body>
-<div class="layui-container-all">
+<div class="layui-container-all" id="root">
     <div class="layui-header">
         <div class="layui-header-left">
             工作台
@@ -39,196 +39,51 @@
         <div class="layui-col-md7 layui-content-center">
             <div class="layui-send-title">用户名</div>
             <div class="layui-content-center-details">
+                <!--  左侧聊天气泡  -->
                 <div class="layui-send">
                     <div class="layui-send-client">
                         <span>用户</span>
                     </div>
                     <div class="layui-send-list">
                         <span class="layui-send-time">2022-05-28 17:56:00</span>
-                        <span class="layui-send-content">消息内容
-                        消息内容消息内容消息内容消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容
-                            消息内容
-
-                            消息内容消息内容消息内容消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容消息内容消息内容消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容
-                            消息内容消息内容消息内容消息内容
-                            消息内容
-
-
-
+                        <span class="layui-send-content">消消消消消消</span>
+                    </div>
+                </div>
+                <div class="layui-send">
+                    <div class="layui-send-client">
+                        <span>用户</span>
+                    </div>
+                    <div class="layui-send-list">
+                        <span class="layui-send-time">2022-05-28 17:56:00</span>
+                        <div class="layui-send-img">
+                            <img src="https://img2.baidu.com/it/u=731520187,1995849030&fm=253&fmt=auto&app=138&f=JPEG"  alt="">
+                        </div>
+                    </div>
+                </div>
+                <!--  右侧聊天气泡  -->
+                <div class="layui-send-right">
+                    <div class="layui-send-right-list">
+                        <span class="layui-send-right-time">2022-05-28 17:56:00</span>
+                        <span class="layui-send-right-content">
+                            消
                         </span>
+                    </div>
+                    <div class="layui-send-right-client">
+                        <span>客服</span>
+                    </div>
+                </div>
+                <div class="layui-send-right">
+                    <div class="layui-send-right-list">
+                        <span class="layui-send-right-time">2022-05-28 17:56:00</span>
+                        <div class="layui-send-img">
+                            <img src="https://img2.baidu.com/it/u=731520187,1995849030&fm=253&fmt=auto&app=138&f=JPEG"  alt="">
+                        </div>
+                    </div>
+                    <div class="layui-send-right-client">
+                        <span>客服</span>
                     </div>
                 </div>
 
-                <div class="layui-send-right">
-                    <span class="layui-send-right-list">
-                        <span class="layui-send-right-time">2022-05-28 17:56:00</span>
-                        <span class="layui-send-right-content">消息内容</span>
-                    </span>
-                    <span class="layui-send-right-client">客服</>
-                </div>
             </div>
             <div class="layui-content-center-send">
                 <div class="layui-content-center-send-uplod">
@@ -241,10 +96,205 @@
             </div>
         </div>
         <div class="layui-col-md3 layui-content-right">
-            右侧
+            <div class="layui-tab layui-tab-brief" lay-filter="docDemoTabBrief">
+                <ul class="layui-tab-title">
+                    <li class="layui-this">用户信息</li>
+                    <li>常用语</li>
+                    <li>客服列表</li>
+                    <li onclick="userlist()">用户列表</li>
+                    <li>系统配置</li>
+                </ul>
+                <div class="layui-tab-content">
+                    <div class="layui-tab-item layui-show layui-right-tab">
+                        <fieldset class="layui-elem-field layui-field-title">
+                            <legend>用户资料</legend>
+                        </fieldset>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label information">用户</label>
+                            <div class="layui-input-block information_content">
+                                <input type="text" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label information">ip</label>
+                            <div class="layui-input-block information_content">
+                                <input type="text" autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label information">地址</label>
+                            <div class="layui-input-block information_content">
+                                <input type="text" autocomplete="off"
+                                       class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label information">ua</label>
+                            <div class="layui-input-block information_content">
+                                <textarea class="layui-textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="layui-right-interval"></div>
+                        <fieldset class="layui-elem-field layui-field-title">
+                            <legend>操作</legend>
+                        </fieldset>
+                        <div class="layui-form-item layui-right-tab-btn">
+                            <button class="layui-btn">拉黑</button>
+                            <button class="layui-btn">标为未读</button>
+                        </div>
+                        <div class="layui-form-remark">
+                            <div class="layui-input-inline">
+                                <input type="text" name="t959" required  lay-verify="required" placeholder="请输入备注" autocomplete="off" class="layui-input">
+                            </div>
+                            <button class="layui-btn">确定</button>
+                        </div>
+                    </div>
+                    <div class="layui-tab-item">
+                        <table class="layui-table">
+                            <colgroup>
+                                <col>
+                                <col width="100">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th>常用语</th>
+                                <th>按钮</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>您好！</td>
+                                <td>
+                                    <button class="layui-btn">发送</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>啥也不是！</td>
+                                <td>
+                                    <button class="layui-btn">发送</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="layui-tab-item">
+                        <fieldset class="layui-elem-field layui-field-title">
+                            <legend>售前客服</legend>
+                        </fieldset>
+                        <table class="layui-table">
+                            <colgroup>
+                                <col>
+                                <col width="100">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th>客服名称</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>贤心</td>
+                                <td>
+                                    <button class="layui-btn">转接</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>许闲心</td>
+                                <td>
+                                    <button class="layui-btn">转接</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                        <div class="layui-right-interval"></div>
+                        <fieldset class="layui-elem-field layui-field-title">
+                            <legend>售前客服</legend>
+                        </fieldset>
+                        <table class="layui-table">
+                            <colgroup>
+                                <col>
+                                <col width="100">
+                            </colgroup>
+                            <thead>
+                            <tr>
+                                <th>客服名称</th>
+                                <th>操作</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>贤心</td>
+                                <td>
+                                    <button class="layui-btn">转接</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>许闲心</td>
+                                <td>
+                                    <button class="layui-btn">转接</button>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="layui-tab-item">
+                        <table id="userlist" lay-filter="userlist"></table>
+                    </div>
+                    <div class="layui-tab-item">暂无系统配置</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+</script>
+<script type="text/html" id="barDemo">
+    <a class="layui-btn layui-btn-xs" lay-event="contact">联系</a>
+</script>
 </body>
 <script src="http://mi.anmixiu.com/cdn/layui/layui.js"></script>
+<script src="http://mi.anmixiu.com/cdn/vue/vue@3.2.33.js"></script>
+<script>
+
+    layui.use(['table', 'upload'], function(){
+        var table = layui.table,
+            upload = layui.upload,
+            layer = layui.layer;
+
+
+        window.userlist = () => {
+            //第一个实例
+            table.render({
+                elem: '#userlist'
+                ,url: 'test.json'
+                ,page: true
+                ,limit: 40
+                ,cols: [[
+                    ,{field:'ID', title:'id'}
+                    ,{field:'username', title:'用户名'}
+                    ,{fixed: 'right', title:'操作', toolbar: '#barDemo', width:100}
+                ]]
+            });
+        }
+
+    });
+
+
+
+    /*const root = {
+        data(){
+            return{
+                msg: 'hello word'
+            }
+        },
+        created(){
+
+        },
+        mounted(){
+
+        }
+    }
+
+    Vue.createApp(root).mount("#root")*/
+</script>
 </html>
