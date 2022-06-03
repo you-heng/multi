@@ -1,0 +1,19 @@
+{
+    "name": "admin/swoole",
+    "authors": [
+        {
+            "name": "有衡",
+            "email": "43592453+you-heng@users.noreply.github.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "app",
+            "service\\": "service",
+            "rests\\": "rests"
+        }
+    },
+    "require": {
+        "topthink/think-orm": "^2.0"
+    }
+}
