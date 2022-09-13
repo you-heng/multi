@@ -1,0 +1,8 @@
+/.idea
+/.vscode
+/vendor
+*.log
+.env
+/fangwei_old
+.htaccess
+nginx.htaccess

@@ -1,0 +1,15 @@
+用户表
+id 	主键
+uid	uid
+ip	ip
+ua	ua
+fd	fd
+create_time
+
+聊天记录表
+id	主键
+f_id	发送人id
+t_id	接收人id
+type	消息类型	1-文字 2-图片
+text	消息内容
+create_time	创建时间

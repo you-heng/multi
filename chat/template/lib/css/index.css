@@ -1,3 +1,9 @@
+/*
+* @Author: xuebingsi
+* @Date:   2019-04-01 13:37:17
+* @Last Modified by:   zhibinm
+* @Last Modified time: 2019-04-01 13:37:19
+*/
 body,html{
     margin: 0;
     padding: 0;
@@ -15,7 +21,10 @@ body,html{
     max-width: 420px;
     padding: 40px;
     background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 4px;
+    /* overflow-x: hidden; */
     box-sizing: border-box;
 }
 .login a.logo{

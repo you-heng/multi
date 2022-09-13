@@ -1,5 +1,5 @@
 <?php
-include_once __DIR__ . "/../vendor/autoload.php";
+require_once "vendor/autoload.php";
 
 use think\facade\Db;
 // 数据库配置信息设置（全局有效）
@@ -15,7 +15,7 @@ Db::setConfig([
             'hostname' => '127.0.0.1',
             // 用户名
             'username' => 'root',
-            // 密码
+            //密码
             'password' => 'root',
             // 数据库名
             'database' => 'test.io',
