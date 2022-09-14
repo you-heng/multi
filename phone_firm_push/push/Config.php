@@ -40,7 +40,7 @@ class Config
     // 魅族推送的key
     static public $mz_app_id = "";
     static public $mz_app_key = "";
-    static public $mz_app_secret = "WFSq6x6bRmQ7PgyeuQ7TtTHRMevLRqDk";
+    static public $mz_app_secret = "";
     static public $mz_open_url = "https://server-api-push.meizu.com/"; // 地址
     static public $mz_open_push = "/garcia/api/server/push/varnished/pushByPushId"; // 单推
     static public $mz_open_all = "/garcia/api/server/push/pushTask/pushToApp"; // 全推
