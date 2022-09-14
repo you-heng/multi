@@ -4,6 +4,14 @@
     <include_path>
       <path value="" />
       <path value="$PROJECT_DIR$/../../../IDEA/ide-helper" />
+      <path value="$PROJECT_DIR$/api/vendor/topthink/think-orm" />
+      <path value="$PROJECT_DIR$/api/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/api/vendor/composer" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/api/vendor/psr/log" />
     </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
   </component>
 </project>

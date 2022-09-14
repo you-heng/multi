@@ -312,11 +312,19 @@ body,html{
     margin-bottom: 0.8rem;
 }
 .layui-chat-left-title{
-    width: 13%;
+    width: 12%;
     margin-top: 0.8rem;
+    margin-right: 0.5rem;
 }
 .layui-chat-left-title span{
     padding: 12px 6px;
+    background-color: #27A9E3;
+    color: #fff;
+    border-radius: 3px;
+}
+.layui-chat-left-title div{
+    width: 100%;
+    padding: 12px 0;
     background-color: #27A9E3;
     color: #fff;
     border-radius: 3px;
@@ -350,12 +358,19 @@ body,html{
     min-height: 3rem;
 }
 .layui-chat-right-title{
-    width: 13%;
+    width: 12%;
     margin-top: 0.8rem;
     margin-left: 0.5rem;
 }
 .layui-chat-right-title span{
     padding: 12px 6px;
+    background-color: #555555;
+    color: #fff;
+    border-radius: 3px;
+}
+.layui-chat-right-title div{
+    width: 100%;
+    padding: 12px 0;
     background-color: #555555;
     color: #fff;
     border-radius: 3px;

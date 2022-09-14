@@ -37,7 +37,7 @@ if(!empty($uid)){
                 <div class="layui-chat-left">
                     <!--  左侧聊天气泡  -->
                     <div class="layui-chat-left-title">
-                        <span><?php echo $v['t_id']; ?></span>
+                        <div><?php echo $v['t_id']; ?></div>
                     </div>
                     <div class="layui-chat-left-content">
                         <span class="layui-chat-left-content-time"><?php echo $v['create_time']; ?></span>
@@ -47,7 +47,7 @@ if(!empty($uid)){
                 <?php }else if($tid == $v['f_id'] && $v['type'] == 2){ ?>
                 <div class="layui-chat-left">
                     <div class="layui-chat-left-title">
-                        <span><?php echo $v['t_id']; ?></span>
+                        <div><?php echo $v['t_id']; ?></div>
                     </div>
                     <div class="layui-chat-left-content">
                         <span class="layui-chat-left-content-time"><?php echo $v['create_time']; ?></span>
@@ -64,7 +64,7 @@ if(!empty($uid)){
                         <span class="layui-chat-right-content-neirong"><?php echo $v['text']; ?></span>
                     </div>
                     <div class="layui-chat-right-title">
-                        <span><?php echo $v['f_id']; ?></span>
+                        <div><?php echo $v['f_id']; ?></div>
                     </div>
                 </div>
                 <?php }else if($uid == $v['f_id'] && $v['type'] == 2){ ?>
@@ -76,14 +76,14 @@ if(!empty($uid)){
                         </div>
                     </div>
                     <div class="layui-chat-right-title">
-                        <span><?php echo $v['f_id']; ?></span>
+                        <div><?php echo $v['f_id']; ?></div>
                     </div>
                 </div>
                 <?php } ?>
                 <?php } ?>
             </div>
             <div class="layui-col-xs24 layui-col-sm12 layui-chat-down">
-                <div class="layui-chat-upload">
+                <div class="layui-chat-upload" id="upload">
                     <i class="layui-icon layui-icon-picture layui-chat-upload-icon"></i>
                 </div>
                 <input type="text" id="content" name="content" required  lay-verify="required" placeholder="请输入内容" autocomplete="off" class="layui-input layui-chat-input">
@@ -95,9 +95,27 @@ if(!empty($uid)){
 <script src="http://mi.anmixiu.com/cdn/layui/layui.js"></script>
 <script src="http://mi.anmixiu.com/cdn/jquery/jquery-3.6.0.js"></script>
 <script>
-    var layer;
-    layui.use('layer', function (){
+    var layer,upload;
+    var type = 1;
+    layui.use(['layer', 'upload'], function (){
         layer = layui.layer;
+        upload = layui.upload;
+
+        var uploadInst = upload.render({
+            elem: '#upload' //绑定元素
+            ,url: '../api/upload.php' //上传接口
+            ,done: function(res){
+                //上传完毕回调
+                type = 2;
+                $("#content").val(res.data.src)
+                console.log(res)
+                submit()
+            }
+            ,error: function(){
+                //请求异常回调
+                layer.msg('上传失败')
+            }
+        });
     });
 
     var wsServer = 'ws://47.93.97.181:9502?uid=' + "<?php echo $uid; ?>";
@@ -121,7 +139,7 @@ if(!empty($uid)){
                 <div class="layui-chat-left">
                     <!--  左侧聊天气泡  -->
                     <div class="layui-chat-left-title">
-                        <span>${chat.t_id}</span>
+                        <div>${chat.t_id}</div>
                     </div>
                     <div class="layui-chat-left-content">
                         <span class="layui-chat-left-content-time">${chat.create_time}</span>
@@ -134,7 +152,7 @@ if(!empty($uid)){
                 html = `
                 <div class="layui-chat-left">
                     <div class="layui-chat-left-title">
-                        <span>${chat.t_id}</span>
+                        <div>${chat.t_id}</div>
                     </div>
                     <div class="layui-chat-left-content">
                         <span class="layui-chat-left-content-time">${chat.create_time}</span>
@@ -154,7 +172,7 @@ if(!empty($uid)){
                         <span class="layui-chat-right-content-neirong">${chat.text}</span>
                     </div>
                     <div class="layui-chat-right-title">
-                        <span>${chat.f_id}</span>
+                        <div>${chat.f_id}</div>
                     </div>
                 </div>
                 `
@@ -168,7 +186,7 @@ if(!empty($uid)){
                         </div>
                     </div>
                     <div class="layui-chat-right-title">
-                        <span>${chat.f_id}</span>
+                        <div>${chat.f_id}</div>
                     </div>
                 </div>
                 `
@@ -183,18 +201,28 @@ if(!empty($uid)){
     };
 
     $("#send").click(function () {
+        submit()
+    });
+
+    $("#content").bind('keyup', function (event){
+        if(event.keyCode == "13"){
+            submit()
+        }
+    })
+
+    function submit(){
         let text = $("#content").val()
         if(text !== ''){
             let chat = {
                 f_id: "<?php echo $uid; ?>",
                 t_id: "<?php echo $tid; ?>",
-                type: 1,
+                type: type,
                 text: $("#content").val()
             }
             websocket.send(JSON.stringify(chat))
         }else{
             layer.msg('请先输入内容');
         }
-    })
+    }
 </script>
 </html>
